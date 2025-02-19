@@ -1,0 +1,74 @@
+/* Main Container (EVERYTHING) */
+.main-container {
+/*  */
+}
+
+
+/* PROFILE CONTAINER  */
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    border:2px solid;
+    border-radius:5px;
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+   
+
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.profile-information {
+    text-align: right;
+}
+
+/* Objective  Text */
+
+.objective {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Work History/ Education history / Skills  */
+
+.info-section{
+    display:flex;
+    width: 100%;
+    border:2px solid;
+    border-radius:5px;
+    justify-content: space-between; 
+    
+}
+.qualification-section{
+/*  */
+}
+
+.education .experience{
+}
+
+.skills-section {
+    
+    
+}
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #cfcfcf;
+    border-radius: 3px;
+    
+}
+
