@@ -1,6 +1,11 @@
 /* Main Container (EVERYTHING) */
 .main-container {
-/*  */
+align-content: center;
+align-items: center;
+max-width: 1300px;
+margin: 0 auto;
+width:100%;
+
 }
 
 
@@ -10,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    padding: 20px;
+    padding: 10px;
     border:2px solid;
     border-radius:5px;
     
@@ -19,7 +24,8 @@
 .profile {
     display: flex;
     align-items: center;
-   
+    flex-wrap: wrap;
+    gap: 10px;
 
 }
 .profile-pic {
@@ -32,6 +38,7 @@
 
 .profile-information {
     text-align: right;
+    
 }
 
 /* Objective  Text */
@@ -40,35 +47,63 @@
     width: 100%;
     text-align: center;
     padding: 10px;
+    
 }
 
 
 /* Work History/ Education history / Skills  */
 
-.info-section{
-    display:flex;
+.qualification-container{
+  
+    display: flex;
+    border: 2px solid;
+    border-radius: 5px;
     width: 100%;
-    border:2px solid;
-    border-radius:5px;
-    justify-content: space-between; 
-    
-}
-.qualification-section{
-/*  */
+  
 }
 
-.education .experience{
+.info-section {
+    flex: 1;
+    min-width: 300px;
+    padding:10px;
 }
 
-.skills-section {
-    
-    
+
+ /* SKILL PROGRESS BAR */
+
+.skills-section{
+   max-width:300px;
+    min-width: 150px;
+    width: 100%;
+    padding:10px;
 }
+ .skill { 
+    background-color: rgb(91, 146, 218); 
+    color: white; 
+    padding: 5px; 
+    font-size: 20px; 
+    border-radius: 10px; 
+    height:20px;
+  
+} 
+
 .progress-bar {
-    width: 100%;
-    height: 10px;
-    background-color: #cfcfcf;
-    border-radius: 3px;
-    
+ 
+    background-color: rgb(192, 192, 192); 
+    border-radius: 10px; 
+      margin-top: 5px;
+} 
+
+.html { 
+    width: 30%; 
+} 
+
+.css { 
+    width: 20%; 
+} 
+
+.javascript{
+    width: 10%; 
 }
+
 
